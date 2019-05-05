@@ -1,4 +1,4 @@
-package linkedlist.myimplement;
+package linkedlist.myimplement.stack;
 
 public class ArrayStack {
     /**

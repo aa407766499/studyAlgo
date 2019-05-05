@@ -1,4 +1,6 @@
-package linkedlist.myimplement;
+package linkedlist.myimplement.stack;
+
+import linkedlist.myimplement.Node;
 
 public class LinkedListStack {
     /**
