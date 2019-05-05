@@ -5,9 +5,9 @@ package linkedlist.myimplement.queue;
  */
 public class ArrayQueue {
     private String array[];
-    private int n;
-    private int head;
-    private int tail;
+    private int n = 0;
+    private int head = 0;
+    private int tail = 0;
 
     public ArrayQueue() {
         this(10);
@@ -82,6 +82,7 @@ public class ArrayQueue {
             System.out.println(array[i]);
         }
     }
+
     public static void main(String[] args) {
         ArrayQueue arrayQueue = new ArrayQueue(4);
         arrayQueue.inqueue("a");
